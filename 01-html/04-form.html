@@ -10,6 +10,68 @@
     <main>
       <form action="/submit">
         <!-- Add your code here -->
+        <h1>Welcome to Make-a-holiday</h1>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="username" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <br />
+        <fieldset>
+          <legend>Which place are you interested in travelling to?</legend>
+          <input type="radio" id="Lisbon" name="travel" value="Lisbon" />
+          <label for="Lisbon">Lisbon</label>
+          <input type="radio" id="Rio" name="travel" value="Rio de Janiero" />
+          <label for="Rio">Rio de Janiero</label>
+          <input type="radio" id="Madrid" name="travel" value="Madrid" />
+          <label for="Madrid">Madrid</label>
+          <input type="radio" id="Accra" name="travel" value="Accra" />
+          <label for="Accra">Accra</label>
+          <input
+            type="radio"
+            id="Johannesburg"
+            name="travel"
+            value="Johannesburg"
+          />
+          <label for="Johannesburg">Johannesburg</label>
+          <input type="radio" id="Sydney" name="travel" value="Sydney" />
+          <label for="Sydney">Sydney</label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>What are you interested in doing during holiday?</legend>
+          <input type="checkbox" id="Eating" name="topics" value="Eating" />
+          <label for="Eating">Eating</label>
+          <input type="checkbox" id="Chilling" name="topics" value="Chilling" />
+          <label for="Chilling">Chillng</label>
+          <input type="checkbox" id="Museums" name="topics" value="Museums" />
+          <label for="Museums">Museums</label>
+          <input type="checkbox" id="Clubbing" name="topics" value="Clubbing" />
+          <label for="Clubbing">Clubbing</label>
+          <input
+            type="checkbox"
+            id="Hopon-Hopoff"
+            name="topics"
+            value="Hopon-Hopoff"
+          />
+          <label for="Hopon-Hopoff">Hopon-Hopoff</label>
+        </fieldset>
+        <br />
+        <div>
+          <label for="question">
+            Any special accomodations or other requests?
+          </label>
+          <br />
+          <textarea name="textarea" id="question" rows="6" cols="60"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit Form" />
+          <input type="reset" value="Reset Form" />
+        </div>
       </form>
     </main>
   </body>
