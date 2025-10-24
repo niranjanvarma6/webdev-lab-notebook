@@ -21,7 +21,9 @@
     align-items: center;
   }
 }
-
+body {
+  margin: 0;
+}
 nav ul {
   background-color: var(--black);
   display: flex;
@@ -30,11 +32,15 @@ nav ul {
   margin: 0;
   left: 0;
   top: 0;
+  padding: 5px;
 }
 nav li {
-  padding: 20px;
+  padding: 10px;
 }
 nav a {
   color: var(--white);
   text-decoration: none;
+}
+.main {
+  margin-left: 15px;
 }
