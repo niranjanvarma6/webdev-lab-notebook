@@ -30,34 +30,18 @@
 
 .flex-container-3 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column-reverse;
+  flex-flow: column-reverse wrap;
+  align-items: center;
   height: 400px;
-}
-
-.flex-container-3 .flex-item {
-  flex: 0 0 calc(20% - 20px);
 }
 
 /* Flex Container 4 */
 
 .flex-container-4 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-container-4 .flex-item {
-  flex: 0 0 calc(20% - 20px);
-}
-.flex-container-4 .item6,
-.flex-container-4 .item7,
-.flex-container-4 .item8 {
-  order: -1;
-  flex: 0 0 calc(33% - 20px);
-  /* For equal size(correct layout only works for full size laptop screen) use this  and remove the flex*/
-  /* margin-right: 150px; */
+  flex-flow: row wrap-reverse;
+  justify-content: space-around;
 }
 
 /* Flex Container 5 */
