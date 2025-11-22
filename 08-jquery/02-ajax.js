@@ -11,7 +11,7 @@ $(document).ready(() => {
           marginTop: "20px",
         })
         .append($("<h3>").text(item.name))
-        .append($("<p>").text(item.authors[0]))
+        .append($("<p>").text(`by ${item.authors[0]}`))
         .append($("<p>").text(item.released.substr(0, 4)))
         .append($("<p>").text(`${item.numberOfPages} pages`))
     );
